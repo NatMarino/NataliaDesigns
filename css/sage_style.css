@@ -1,0 +1,33 @@
+.sage_body {
+  text-align: center;
+}
+
+.sage_gallery {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.sage_gallery img {
+  display: block;
+  width: 960px;
+  height: 540px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sage_gallery p {
+  font-size: 1.2em;
+  width: 700px;
+  text-align: justify;
+  margin: auto;
+}
+
+.sage_gallery h1 {
+  font-size: 2em;
+}
+
+.sage_gallery h2 {
+  font-size: 1.2em;
+}

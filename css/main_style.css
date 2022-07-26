@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Supermercado+One&display=swap');
+
+/*
+font-family: 'Nunito', sans-serif; Main Text
+
+font-family: 'Supermercado One', cursive; Headers and Titles
+*/
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  background: #fff;
+  color: black;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Supermercado One', cursive;
+  font-size: 85px;
+}
+
+/*header styling*/
+.header {
+  background-color: #d7bae8;
+  margin: 0;
+  content: "";
+  padding: 10px;
+  padding-top: 20px;
+  display: table;
+  clear: both;
+  font-size: 25px;
+}
+
+.logo {
+  width: 30%;
+  length: 30%;
+  float: left;
+  margin-left: 10px;
+}
+
+@-webkit-keyframes logo {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes logo {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.logo:hover, .logo:focus, .logo:active {
+  -webkit-animation-name: logo;
+  animation-name: logo;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  padding-right: 50px;
+  padding-top: 50px;
+  float: right;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.nav li {
+  padding: 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.hvr-backward {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-backward:hover, .hvr-backward:focus, .hvr-backward:active {
+  -webkit-transform: translateX(-8px);
+  transform: translateX(-8px);
+}
+.dividerTop {
+  width: 100%;
+  height: 150px;
+}
+
+/*header styling end*/
+/*intro styling*/
+.intro {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  max-width: 20%;
+  max-height: 20%;
+  object-fit: contain;
+  display: block;
+}
+
+.blurb {
+  flex-direction: column;
+  width: 500px;
+  padding: 50px;
+}
+
+.blurb p {
+  font-size: 25px;
+}
+
+.blurb h1 {
+  text-align: center;
+}
+
+.icons {
+  font-size: 45px;
+  text-align: center;
+}
+
+.icons a {
+  text-decoration: none;
+  color: black;
+}
+
+.icon-hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.icon-hvr-grow:hover, .icon-hvr-grow:focus, .icon-hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*intro styling end*/
+/*portfolio styling*/
+.gallery {
+  padding: 30px;
+  text-align: center;
+  margin: auto;
+}
+
+/*crochet soup styling*/
+.crochetsoup {
+  width: 960px;
+  height: 540px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.crochetsoup_container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+}
+
+.crochetsoup_overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #d7bae8;
+  background: rgba(215, 186, 232, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.crochetsoup_container:hover .crochetsoup_overlay {
+  height: 100%;
+}
+
+.cs_covertext {
+  white-space: nowrap;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*crochet soup styling*/
+/*sage construction styling*/
+.sage {
+  width: 960px;
+  height: 540px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.sage_container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  text-align: center;
+  margin: auto;
+}
+
+.sage_overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #d7bae8;
+  background: rgba(215, 186, 232, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.sage_container:hover .sage_overlay {
+  height: 100%;
+}
+
+.sage_covertext {
+  white-space: nowrap;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*drawing styling*/
+.drawing {
+  width: 960px;
+  height: 540px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.drawing_container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.drawing_overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #d7bae8;
+  background: rgba(215, 186, 232, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.drawing_covertext {
+  white-space: nowrap;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.drawing_container:hover .drawing_overlay {
+  height: 100%;
+}
+
+.footer {
+  background-color: #d7bae8;
+  margin: 0;
+  padding: 20px;
+  flex-shrink: 0;
+}
+
+.dividerBot {
+  width: 100%;
+  height: 150px;
+}
+
+/*footer styling*/
+.footer h2 {
+  font-family: 'Supermercado One', cursive;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.email {
+  text-decoration: none;
+  color: black;
+  text-align-last: center;
+}
+
+.iconsFooter {
+  font-size: 45px;
+  text-align: center;
+}
+
+.iconsFooter a {
+  text-decoration: none;
+  color: black;
+}
+
+.footerNav {
+  text-align: center;
+  display: flex;
+  float: right;
+  flex-direction: row;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+.footerNav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.footerNav li {
+  padding: 15px;
+}
+
+.footerNav a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+/*crochet soup page styling end*/
