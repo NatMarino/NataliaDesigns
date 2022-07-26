@@ -32,7 +32,6 @@ h2 {
   column-gap: 1;
   margin: 0 auto;
   padding 30px;
- 
 }
 
 .hvr-grow {
@@ -59,12 +58,6 @@ h2 {
 }
 
 @media screen and (max-width:1000px) {
-  .draw_gallery {
-    column-count: 2;
-  }
-}
-
-@media screen and (max-width:800px) {
   .draw_gallery {
     column-count: 1;
   }
